@@ -10,9 +10,10 @@ roscore
 rosrun Visual_Tracking_for_Corobots Obstacle_Avoidance.py
 ```
 
-3.  Start tracker 
-LAst Paramater can be TLD, KCF, MOSSE, MIL, MEDIANFLOW 
+3.  Start tracker \\
+Valid Trackers \\
+TLD, KCF, MOSSE, MIL or MEDIANFLOW
 ```
-rosrun Visual_Tracking_for_Corobots Tracker.py TLD
+rosrun Visual_Tracking_for_Corobots Tracker.py "Tracker"
 ```
 
